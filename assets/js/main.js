@@ -2,12 +2,17 @@ $(document).ready(function() {
     // Counter Up
     $('.counter').counterUp();
 
-    // Magnific Popup
+    // Magnific Popup Image
     $('.popup-image').magnificPopup({
         type:'image',
         gallery: {
             enabled: true
         }
+    });
+
+    // Magnific Popup Video
+    $('.video-popup').magnificPopup({
+        type:'iframe'
     });
 
     // Testimonials Slider
